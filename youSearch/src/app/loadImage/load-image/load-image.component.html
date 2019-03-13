@@ -1,0 +1,14 @@
+<slide *ngIf="z === 1 || z % 5 === 0">
+  
+  <p>{{ z }}</p>
+  <div class="card-deck">
+    <youtube-video
+      *ngFor="let videoM of videosL; let b = index"
+      [videoF]="videoM"
+      [x]="z"
+      [b]="b + 1"
+    ></youtube-video>
+    
+  </div>
+</slide>
+

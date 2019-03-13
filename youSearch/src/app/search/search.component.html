@@ -1,0 +1,31 @@
+<div  class="form-inline special">
+  
+  <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroup-sizing-default">Search</span>
+      </div>
+      <input type="text" #searchInput class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+    </div>
+</div>
+
+
+
+  <h2 *ngIf="videos" class=" text-white">
+    Carousel Display of Videos
+  </h2>
+
+<div style = "padding-top: 10px ">
+  <carousel>
+      <app-load-image *ngFor="let video of videos; let i = index;"  [videoL]="video" [z] ="i+1" [videosL] =" videos" ></app-load-image>
+  </carousel>
+  
+</div>
+<h2 *ngIf="videos" class=" text-white">
+   First 50 list of Videos
+  </h2>
+<div class="card-deck">
+  <app-video-card *ngFor="let video of videos" [video]="video" ></app-video-card>
+</div>
+
+
+
