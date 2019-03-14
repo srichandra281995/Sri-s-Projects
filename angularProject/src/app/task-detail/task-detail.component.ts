@@ -26,6 +26,6 @@ export class TaskDetailComponent implements OnInit {
     this.route.params.subscribe((params: Params) => {
       this.title = params['title'];
     });
-    this.newsRating = this.newsRatingService.getServer(this.title);
+    this.newsRating = this.newsRatingService.getNewsRating(this.title);
   }
 }
