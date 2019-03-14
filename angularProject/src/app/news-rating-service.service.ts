@@ -14,10 +14,10 @@ export class NewsRatingServiceService {
       new NewsRatingModel('BBC', 'www.bbc.com', 9)
   ];
 
-  getServers() {
+  getNewsRatingList() {
     return this.newsRatingsList;
   }
-  getServer(title: string) {
+  getNewsRating(title: string) {
     const server = this.newsRatingsList.find(
       (s) => {
         return s.title === title;

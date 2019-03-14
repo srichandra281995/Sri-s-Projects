@@ -15,7 +15,7 @@ export class UserPageComponent {
  userEmail: string;
 
  constructor(private newsRatingService: NewsRatingServiceService, private router: Router ) {
-  this.newsRatings = this.newsRatingService.getServers();
+  this.newsRatings = this.newsRatingService.getNewsRatingList();
   this.userEmail = this.newsRatingService.userEmail;
   if (!this.userEmail) {
     this.router.navigate(['/login']);
