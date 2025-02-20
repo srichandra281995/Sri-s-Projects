@@ -19,7 +19,7 @@
 - Phone number field must be filled with only numbers
 The form can be submitted only after meeting the above requirements.
 In list ,we can see the registered names and used local storage to achieve this.
-We can clear the local storage by clicking clear button below form. My goal for this project is much towards typescript functionality than designing.</p>
+We can clear the local storage by clicking clear button below form.</p>
 <img width="1470" alt="Screenshot 2025-02-20 at 2 44 45 PM" src="https://github.com/user-attachments/assets/9efc0394-a005-4b65-947b-d2ea7daf9ba9" />
 <img width="1470" alt="Screenshot 2025-02-20 at 2 44 55 PM" src="https://github.com/user-attachments/assets/d2ee09dc-8a7a-4567-a04e-922d15689569" />
 <img width="1470" alt="Screenshot 2025-02-20 at 2 45 30 PM" src="https://github.com/user-attachments/assets/7799f8ca-f0be-4960-a796-f7f0187d4cc8" />
