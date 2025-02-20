@@ -27,14 +27,10 @@ We can clear the local storage by clicking clear button below form.</p>
 <hr>
 <h3>Authenication</h3>
 <p>Authentication (JWT) :- In this project , user need to first signup with details and once he is done with signup he gets navigated to dashboard where he can see his details. A user can only login if he is  registered before. And also he can only stay logged in for 40 sec. After that, he gets navigated back to login page. Achieved this using different features of angular and JWT. The project is not organised as I am working on it. Styling of this project is also ongoing.
-
-Implementation :-
-All the project except the 6th one can be implemented running npm install and ng serve to start.
-
-For last project need to create folder with name db inside server folder which is backend code.And run npm install in both server folder and authenticationUI folder , run node .\app.js  inside server folder to start server, ng serve -o inside  authenticationUI  . Use two terminals for running them simultaneously.</p>
+For this project need to create folder with name db inside server folder which is backend code.And run npm install in both server folder and authenticationUI folder , run node .\app.js  inside server folder to start server, ng serve -o inside  authenticationUI  . Use two terminals for running them simultaneously.</p>
 <hr>
 <h3>SearchAndSort Project</h3>
-<p>Search And Sort :- In this project user can search the table accordingly and sort them by clicking the sort icon. Sorting is done according to, ascending and descending order of           alphabetical and numbers. The sort toggles between these orders simultaneously by clicking them. Used custom directives to achieve this.My goal for this project is much towards typescript functionality than designing.</p>
+<p>Search And Sort :- In this project user can search the table accordingly and sort them by clicking the sort icon. Sorting is done according to, ascending and descending order of           alphabetical and numbers. The sort toggles between these orders simultaneously by clicking them. Used custom directives to achieve this.</p>
 <img width="1469" alt="Screenshot 2025-02-20 at 2 48 05 PM" src="https://github.com/user-attachments/assets/5e83bc1c-7ca4-4f06-8bbf-596f5c45d63a" />
 <img width="1359" alt="Screenshot 2025-02-20 at 2 48 12 PM" src="https://github.com/user-attachments/assets/f5cf0f40-f542-43e0-bea1-7cc5b5ee397c" />
 <img width="1470" alt="Screenshot 2025-02-20 at 2 48 44 PM" src="https://github.com/user-attachments/assets/f8fb5f5d-e8fd-4d91-997e-4fc79b389e32" />
